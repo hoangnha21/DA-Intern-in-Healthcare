@@ -6,5 +6,7 @@ Objectives
 - Effectively manage healthcare IT projects and programs, aligning technology with healthcare goals, and addressing sector-specific challenges.
 
 Tools
+
 -R and Python programming languages are widely used for data analysis, manipulation, visualization, predictive and statistical modeling. 
+
 -Alteryx used as a visual interface for data blending, cleaning, and transformation. 
