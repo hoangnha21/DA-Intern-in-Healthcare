@@ -45,5 +45,3 @@ Tablet HealthWellnessApps
 B11:
 FreqWearDevTrackHealth
 
-
-![image](https://github.com/hoangnha21/DA-Intern-in-Healthcare/assets/102693851/6267c3be-3e19-4548-b426-0e37b1815123)
