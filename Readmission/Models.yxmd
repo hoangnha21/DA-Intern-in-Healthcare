@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Readmission\to_model.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>to_model.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gender" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="change" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="service_utilization" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="race_AfricanAmerican" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="race_Asian" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="race_Caucasian" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="race_Hispanic" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="race_Other" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="age_50-70" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="age_70+" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="age_&lt;50" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_type_id_" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_type_id_Elective" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_type_id_Emergency" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_type_id_Other" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_type_id_Unknown" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Home" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_ER" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_Other" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_Referral" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_Transfer" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="admission_source_id_Unknown" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="max_glu_serum_&gt;200" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="max_glu_serum_&gt;300" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="max_glu_serum_None" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="max_glu_serum_Norm" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="A1Cresult_Diab" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="A1Cresult_None" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="A1Cresult_Normal" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="A1Cresult_Pre-diab" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Circulatrory" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Diabetes" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Digestive" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Genitourinary" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Injury" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Musculoskeletal" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Neoplasms" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Others" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+            <Field name="level1_diag1_Respiratory" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\to_model.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="gender" selected="True" type="Int16" size="2" />
+            <SelectField field="time_in_hospital" selected="True" type="Int16" size="2" />
+            <SelectField field="num_lab_procedures" selected="True" type="Int16" size="2" />
+            <SelectField field="num_procedures" selected="True" type="Int16" size="2" />
+            <SelectField field="num_medications" selected="True" type="Int16" size="2" />
+            <SelectField field="number_diagnoses" selected="True" type="Int16" size="2" />
+            <SelectField field="metformin" selected="True" type="Int16" size="2" />
+            <SelectField field="repaglinide" selected="True" type="Int16" size="2" />
+            <SelectField field="nateglinide" selected="True" type="Int16" size="2" />
+            <SelectField field="chlorpropamide" selected="True" type="Int16" size="2" />
+            <SelectField field="glimepiride" selected="True" type="Int16" size="2" />
+            <SelectField field="glipizide" selected="True" type="Int16" size="2" />
+            <SelectField field="glyburide" selected="True" type="Int16" size="2" />
+            <SelectField field="tolbutamide" selected="True" type="Int16" size="2" />
+            <SelectField field="pioglitazone" selected="True" type="Int16" size="2" />
+            <SelectField field="rosiglitazone" selected="True" type="Int16" size="2" />
+            <SelectField field="acarbose" selected="True" type="Int16" size="2" />
+            <SelectField field="miglitol" selected="True" type="Int16" size="2" />
+            <SelectField field="tolazamide" selected="True" type="Int16" size="2" />
+            <SelectField field="insulin" selected="True" type="Int16" size="2" />
+            <SelectField field="glyburide-metformin" selected="True" type="Int16" size="2" />
+            <SelectField field="metformin-pioglitazone" selected="True" type="Int16" size="2" />
+            <SelectField field="change" selected="True" type="Int16" size="2" />
+            <SelectField field="diabetesMed" selected="True" type="Int16" size="2" />
+            <SelectField field="readmitted" selected="True" />
+            <SelectField field="service_utilization" selected="True" type="Int16" size="2" />
+            <SelectField field="race_AfricanAmerican" selected="True" type="Int16" size="2" />
+            <SelectField field="race_Asian" selected="True" type="Int16" size="2" />
+            <SelectField field="race_Caucasian" selected="True" type="Int16" size="2" />
+            <SelectField field="race_Hispanic" selected="True" type="Int16" size="2" />
+            <SelectField field="race_Other" selected="True" type="Int16" size="2" />
+            <SelectField field="age_50-70" selected="True" type="Int16" size="2" />
+            <SelectField field="age_70+" selected="True" type="Int16" size="2" />
+            <SelectField field="age_&lt;50" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_type_id_" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_type_id_Elective" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_type_id_Emergency" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_type_id_Other" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_type_id_Unknown" selected="True" type="Int16" size="2" />
+            <SelectField field="discharge_disposition_id_Home" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_ER" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_Other" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_Referral" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_Transfer" selected="True" type="Int16" size="2" />
+            <SelectField field="admission_source_id_Unknown" selected="True" type="Int16" size="2" />
+            <SelectField field="max_glu_serum_&gt;200" selected="True" type="Int16" size="2" />
+            <SelectField field="max_glu_serum_&gt;300" selected="True" type="Int16" size="2" />
+            <SelectField field="max_glu_serum_None" selected="True" type="Int16" size="2" />
+            <SelectField field="max_glu_serum_Norm" selected="True" type="Int16" size="2" />
+            <SelectField field="A1Cresult_Diab" selected="True" type="Int16" size="2" />
+            <SelectField field="A1Cresult_None" selected="True" type="Int16" size="2" />
+            <SelectField field="A1Cresult_Normal" selected="True" type="Int16" size="2" />
+            <SelectField field="A1Cresult_Pre-diab" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Circulatrory" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Diabetes" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Digestive" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Genitourinary" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Injury" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Musculoskeletal" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Neoplasms" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Others" selected="True" type="Int16" size="2" />
+            <SelectField field="level1_diag1_Respiratory" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="258" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Selected_Field">readmitted</Value>
+          <Value name="Oversample_Value">1</Value>
+          <Value name="Desired_Pct">50</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Oversample_Field.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="342" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">8</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="Logistic_Regression">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Logistic_Regression_5</Value>
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">gender,time_in_hospital,num_lab_procedures,num_procedures,num_medications,number_diagnoses,metformin,repaglinide,nateglinide,chlorpropamide,glimepiride,glipizide,glyburide,tolbutamide,pioglitazone,rosiglitazone,acarbose,miglitol,tolazamide,insulin,glyburide-metformin,metformin-pioglitazone,change,diabetesMed,service_utilization,race_AfricanAmerican,race_Asian,race_Caucasian,race_Hispanic,race_Other,age_50-70,age_70+,age_&lt;50,admission_type_id_,admission_type_id_Elective,admission_type_id_Emergency,admission_type_id_Other,admission_type_id_Unknown,discharge_disposition_id_Home,admission_source_id_,admission_source_id_ER,admission_source_id_Other,admission_source_id_Referral,admission_source_id_Transfer,admission_source_id_Unknown,max_glu_serum_&gt;200,max_glu_serum_&gt;300,max_glu_serum_None,max_glu_serum_Norm,A1Cresult_Diab,A1Cresult_None,A1Cresult_Normal,A1Cresult_Pre-diab,level1_diag1_Circulatrory,level1_diag1_Diabetes,level1_diag1_Digestive,level1_diag1_Genitourinary,level1_diag1_Injury,level1_diag1_Musculoskeletal,level1_diag1_Neoplasms,level1_diag1_Others,level1_diag1_Respiratory</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="standardize_pred">False</Value>
+          <Value name="internal_cv">False</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="set_seed_internal_cv">False</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="Link">logit</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="set_seed_external_cv">False</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Logistic_Regression_5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="Decision_Tree">
+        <Position x="486" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">graphics</Value>
+          <Value name="curToggle">toggle-treeplot</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">True</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="showWhenAlgorithmAvailable">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">Decision_Tree_6</Value>
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">gender,time_in_hospital,num_lab_procedures,num_procedures,num_medications,number_diagnoses,metformin,repaglinide,nateglinide,chlorpropamide,glimepiride,glipizide,glyburide,tolbutamide,pioglitazone,rosiglitazone,acarbose,miglitol,tolazamide,insulin,glyburide-metformin,metformin-pioglitazone,change,diabetesMed,service_utilization,race_AfricanAmerican,race_Asian,race_Caucasian,race_Hispanic,race_Other,age_50-70,age_70+,age_&lt;50,admission_type_id_,admission_type_id_Elective,admission_type_id_Emergency,admission_type_id_Other,admission_type_id_Unknown,discharge_disposition_id_Home,admission_source_id_,admission_source_id_ER,admission_source_id_Other,admission_source_id_Referral,admission_source_id_Transfer,admission_source_id_Unknown,max_glu_serum_&gt;200,max_glu_serum_&gt;300,max_glu_serum_None,max_glu_serum_Norm,A1Cresult_Diab,A1Cresult_None,A1Cresult_Normal,A1Cresult_Pre-diab,level1_diag1_Circulatrory,level1_diag1_Diabetes,level1_diag1_Digestive,level1_diag1_Genitourinary,level1_diag1_Injury,level1_diag1_Musculoskeletal,level1_diag1_Neoplasms,level1_diag1_Others,level1_diag1_Respiratory</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">False</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">42</Value>
+          <Value name="tree.plot">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">5.5</Value>
+          <Value name="tree.in.h">5.5</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.in.w">5.5</Value>
+          <Value name="prune.in.h">5.5</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Decision_Tree_6</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="534" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">RF1</Value>
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">gender + time_in_hospital + num_lab_procedures + num_procedures + num_medications + number_diagnoses + metformin + repaglinide + nateglinide + chlorpropamide + glimepiride + glipizide + glyburide + tolbutamide + pioglitazone + rosiglitazone + acarbose + miglitol + tolazamide + insulin + glyburide-metformin + metformin-pioglitazone + change + diabetesMed + service_utilization + race_AfricanAmerican + race_Asian + race_Caucasian + race_Hispanic + race_Other + age_50-70 + age_70+ + age_&lt;50 + admission_type_id_ + admission_type_id_Elective + admission_type_id_Emergency + admission_type_id_Other + admission_type_id_Unknown + discharge_disposition_id_Home + admission_source_id_ + admission_source_id_ER + admission_source_id_Other + admission_source_id_Referral + admission_source_id_Transfer + admission_source_id_Unknown + max_glu_serum_&gt;200 + max_glu_serum_&gt;300 + max_glu_serum_None + max_glu_serum_Norm + A1Cresult_Diab + A1Cresult_None + A1Cresult_Normal + A1Cresult_Pre-diab + level1_diag1_Circulatrory + level1_diag1_Diabetes + level1_diag1_Digestive + level1_diag1_Genitourinary + level1_diag1_Injury + level1_diag1_Musculoskeletal + level1_diag1_Neoplasms + level1_diag1_Others + level1_diag1_Respiratory</Value>
+          <Value name="Num Trees">500</Value>
+          <Value name="Custom Num Vars">False</Value>
+          <Value name="Num Vars">3</Value>
+          <Value name="model.size">False</Value>
+          <Value name="total.nodes">100</Value>
+          <Value name="max.depth">10</Value>
+          <Value name="node.size">5</Value>
+          <Value name="replace">True</Value>
+          <Value name="samp.rate">100</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_a1810bcf9f8ba842bf716196b1ef4a52~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_deb79557f74c8a48bba4cf625fd5b898~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_891016142360f341bb92f2a19f6736f7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_f85659bbaab6f04381039b539cd0a57b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_6bd57af83e8ac640b618bc0ed6da1d0c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_ad70132e7db16b439b9d83a4605f4f43~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_8967f625f00fe24fbb4aec2c1cc7e2b0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_cfb2b8fa5b3c0c4496a59f7b84f13df2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="738" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="834" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Logistic_Regression_5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Decision_Tree_6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="RF1" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Accuracy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_0" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+            <Field name="F1" source="R-DATA:" type="Double" />
+            <Field name="AUC" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="1073741823" source="Report:Layout:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_9b6868b61e21b44697ca53675bcdf788~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_4c5c3e07c7e1664ab39aad71f16e844a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_00ccff9779ea0249b7e1493493280aa5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="Score">
+        <Position x="870" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">Pred_readmitted</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1194" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_187beabd30d0674983938ed60edaaf8c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="114" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_16752_4a94ed63581f1b48b5c9dc252f15b6aa_\Engine_16752_b78e2a9bc509624e8411667a66814546~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Validation" />
+      <Destination ToolID="17" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Validation" />
+      <Destination ToolID="21" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="21" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive Report" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="error_measures" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="predictions" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Report" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Models</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="de9e2dec-2fec-4684-ab56-feca0a6e5037" />
+      <Telemetry>
+        <PreviousWorkflowId value="37cfca7f-856d-43c7-a568-5b8518abf4b6" />
+        <OriginWorkflowId value="37cfca7f-856d-43c7-a568-5b8518abf4b6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

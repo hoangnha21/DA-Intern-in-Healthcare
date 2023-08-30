@@ -1,0 +1,840 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dataset - diabetic_patient readmissions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="encounter_id" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="patient_nbr" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="race" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="gender" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="age" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="admission_type_id" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="discharge_disposition_id" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="admission_source_id" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="payer_code" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="medical_specialty" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="number_outpatient" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="number_emergency" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="number_inpatient" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="diag_1" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="diag_2" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="diag_3" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="max_glu_serum" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="A1Cresult" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="acetohexamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="troglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="examide" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="citoglipton" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glipizide-metformin" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="glimepiride-pioglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="metformin-rosiglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="change" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: C:\Users\vhua2\Desktop\Readmission\Dataset - diabetic_patient readmissions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="weight" selected="False" />
+            <SelectField field="payer_code" selected="False" />
+            <SelectField field="medical_specialty" selected="False" />
+            <SelectField field="number_outpatient" selected="True" type="Int16" size="2" />
+            <SelectField field="number_emergency" selected="True" type="Int16" size="2" />
+            <SelectField field="number_inpatient" selected="True" type="Int16" size="2" />
+            <SelectField field="examide" selected="False" />
+            <SelectField field="citoglipton" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[diag_1] != "?"
+AND
+[diag_2] != "?"
+AND
+[diag_3] != "?"
+AND
+[race] != "?"
+AND
+[discharge_disposition_id] != "11"
+AND
+[gender]!= "Unknown/Invalid"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[diag_1] != "?"
+AND
+[diag_2] != "?"
+AND
+[diag_3] != "?"
+AND
+[race] != "?"
+AND
+[d...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="If [readmitted] = &quot;&gt;30&quot;&#xA;OR [readmitted] = &quot;NO&quot; then &quot;0&quot;&#xA;ELSE &quot;1&quot;&#xA;ENDIF" field="readmitted" size="254" type="V_String" />
+            <FormulaField expression="[number_outpatient]+[number_emergency]+[number_inpatient]" field="service_utilization" size="2" type="Int16" />
+            <FormulaField expression="If [age] = &quot;(10-20)&quot;&#xA;OR [age] = &quot;(20-30)&quot;&#xA;OR [age] = &quot;(30-40)&quot;&#xA;OR [age] = &quot;(40-50)&quot; then &quot;&lt;50&quot;&#xA;&#xA;ELSEIF [age] = &quot;(50-60)&quot;&#xA;OR [age] = &quot;(60-70)&quot; THEN &quot;50-70&quot;&#xA;&#xA;ELSE &quot;70+&quot;&#xA;ENDIF" field="age" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>readmitted = If [readmitted] = "&gt;30"
+OR [readmitted] = "NO" then "0"
+ELSE "1"
+EN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_10756_ffb083bd5ddeae478992a5d5ab5e227c_\Engine_10756_c0cf141ede659749913de30c5cc5faab~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="690" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1038" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vhua2\AppData\Local\Temp\Engine_10756_ffb083bd5ddeae478992a5d5ab5e227c_\Engine_10756_f5714d9d49144a45b55d30a3b8c6539a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="510" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="metformin" />
+            <Field name="repaglinide" />
+            <Field name="nateglinide" />
+            <Field name="chlorpropamide" />
+            <Field name="glimepiride" />
+            <Field name="acetohexamide" />
+            <Field name="glipizide" />
+            <Field name="glyburide" />
+            <Field name="tolbutamide" />
+            <Field name="pioglitazone" />
+            <Field name="rosiglitazone" />
+            <Field name="acarbose" />
+            <Field name="miglitol" />
+            <Field name="troglitazone" />
+            <Field name="tolazamide" />
+            <Field name="insulin" />
+            <Field name="glyburide-metformin" />
+            <Field name="glipizide-metformin" />
+            <Field name="glimepiride-pioglitazone" />
+            <Field name="metformin-rosiglitazone" />
+            <Field name="metformin-pioglitazone" />
+            <Field name="encounter_id" selected="False" />
+            <Field name="patient_nbr" selected="False" />
+            <Field name="race" selected="False" />
+            <Field name="gender" selected="False" />
+            <Field name="age" selected="False" />
+            <Field name="admission_type_id" selected="False" />
+            <Field name="discharge_disposition_id" selected="False" />
+            <Field name="admission_source_id" selected="False" />
+            <Field name="time_in_hospital" selected="False" />
+            <Field name="num_lab_procedures" selected="False" />
+            <Field name="num_procedures" selected="False" />
+            <Field name="num_medications" selected="False" />
+            <Field name="diag_1" selected="False" />
+            <Field name="diag_2" selected="False" />
+            <Field name="diag_3" selected="False" />
+            <Field name="number_diagnoses" selected="False" />
+            <Field name="max_glu_serum" selected="False" />
+            <Field name="A1Cresult" selected="False" />
+            <Field name="change" selected="False" />
+            <Field name="diabetesMed" selected="False" />
+            <Field name="readmitted" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>_temp</NewFieldAddOn>
+          <NewFieldAddOnPos>Suffix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>IF [_CurrentField_] = "No"
+OR
+[_CurrentField_] = "Steady" then 0
+else 1
+ENDIF</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int16" size="2" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [_CurrentField_] = "No"
+OR
+[_CurrentField_] = "Steady" the...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="metformin_temp" selected="True" />
+            <SelectField field="repaglinide_temp" selected="True" />
+            <SelectField field="nateglinide_temp" selected="True" />
+            <SelectField field="chlorpropamide_temp" selected="True" />
+            <SelectField field="glimepiride_temp" selected="True" />
+            <SelectField field="acetohexamide_temp" selected="True" />
+            <SelectField field="glipizide_temp" selected="True" />
+            <SelectField field="glyburide_temp" selected="True" />
+            <SelectField field="tolbutamide_temp" selected="True" />
+            <SelectField field="pioglitazone_temp" selected="True" />
+            <SelectField field="rosiglitazone_temp" selected="True" />
+            <SelectField field="acarbose_temp" selected="True" />
+            <SelectField field="miglitol_temp" selected="True" />
+            <SelectField field="troglitazone_temp" selected="True" />
+            <SelectField field="tolazamide_temp" selected="True" />
+            <SelectField field="insulin_temp" selected="True" />
+            <SelectField field="glyburide-metformin_temp" selected="True" />
+            <SelectField field="glipizide-metformin_temp" selected="True" />
+            <SelectField field="glimepiride-pioglitazone_temp" selected="True" />
+            <SelectField field="metformin-rosiglitazone_temp" selected="True" />
+            <SelectField field="metformin-pioglitazone_temp" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="678" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="846" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="RecordID" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Sum" />
+            <Method method="TotCol" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab:Group:Sum:TotCol:" type="Int32" />
+            <Field name="Sum_metformin_temp" source="CrossTab:Header:Name:metformin_temp:Sum:" type="Int64" />
+            <Field name="Sum_repaglinide_temp" source="CrossTab:Header:Name:repaglinide_temp:Sum:" type="Int64" />
+            <Field name="Sum_nateglinide_temp" source="CrossTab:Header:Name:nateglinide_temp:Sum:" type="Int64" />
+            <Field name="Sum_chlorpropamide_temp" source="CrossTab:Header:Name:chlorpropamide_temp:Sum:" type="Int64" />
+            <Field name="Sum_glimepiride_temp" source="CrossTab:Header:Name:glimepiride_temp:Sum:" type="Int64" />
+            <Field name="Sum_acetohexamide_temp" source="CrossTab:Header:Name:acetohexamide_temp:Sum:" type="Int64" />
+            <Field name="Sum_glipizide_temp" source="CrossTab:Header:Name:glipizide_temp:Sum:" type="Int64" />
+            <Field name="Sum_glyburide_temp" source="CrossTab:Header:Name:glyburide_temp:Sum:" type="Int64" />
+            <Field name="Sum_tolbutamide_temp" source="CrossTab:Header:Name:tolbutamide_temp:Sum:" type="Int64" />
+            <Field name="Sum_pioglitazone_temp" source="CrossTab:Header:Name:pioglitazone_temp:Sum:" type="Int64" />
+            <Field name="Sum_rosiglitazone_temp" source="CrossTab:Header:Name:rosiglitazone_temp:Sum:" type="Int64" />
+            <Field name="Sum_acarbose_temp" source="CrossTab:Header:Name:acarbose_temp:Sum:" type="Int64" />
+            <Field name="Sum_miglitol_temp" source="CrossTab:Header:Name:miglitol_temp:Sum:" type="Int64" />
+            <Field name="Sum_troglitazone_temp" source="CrossTab:Header:Name:troglitazone_temp:Sum:" type="Int64" />
+            <Field name="Sum_tolazamide_temp" source="CrossTab:Header:Name:tolazamide_temp:Sum:" type="Int64" />
+            <Field name="Sum_insulin_temp" source="CrossTab:Header:Name:insulin_temp:Sum:" type="Int64" />
+            <Field name="Sum_glyburide_metformin_temp" source="CrossTab:Header:Name:glyburide-metformin_temp:Sum:" type="Int64" />
+            <Field name="Sum_glipizide_metformin_temp" source="CrossTab:Header:Name:glipizide-metformin_temp:Sum:" type="Int64" />
+            <Field name="Sum_glimepiride_pioglitazone_temp" source="CrossTab:Header:Name:glimepiride-pioglitazone_temp:Sum:" type="Int64" />
+            <Field name="Sum_metformin_rosiglitazone_temp" source="CrossTab:Header:Name:metformin-rosiglitazone_temp:Sum:" type="Int64" />
+            <Field name="Sum_metformin_pioglitazone_temp" source="CrossTab:Header:Name:metformin-pioglitazone_temp:Sum:" type="Int64" />
+            <Field name="Total" source="CrossTab:Total:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="762" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordID" selected="False" />
+            <Field field="metformin_temp" selected="True" />
+            <Field field="repaglinide_temp" selected="True" />
+            <Field field="nateglinide_temp" selected="True" />
+            <Field field="chlorpropamide_temp" selected="True" />
+            <Field field="glimepiride_temp" selected="True" />
+            <Field field="acetohexamide_temp" selected="True" />
+            <Field field="glipizide_temp" selected="True" />
+            <Field field="glyburide_temp" selected="True" />
+            <Field field="tolbutamide_temp" selected="True" />
+            <Field field="pioglitazone_temp" selected="True" />
+            <Field field="rosiglitazone_temp" selected="True" />
+            <Field field="acarbose_temp" selected="True" />
+            <Field field="miglitol_temp" selected="True" />
+            <Field field="troglitazone_temp" selected="True" />
+            <Field field="tolazamide_temp" selected="True" />
+            <Field field="insulin_temp" selected="True" />
+            <Field field="glyburide-metformin_temp" selected="True" />
+            <Field field="glipizide-metformin_temp" selected="True" />
+            <Field field="glimepiride-pioglitazone_temp" selected="True" />
+            <Field field="metformin-rosiglitazone_temp" selected="True" />
+            <Field field="metformin-pioglitazone_temp" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="942" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="RecordID" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="RecordID" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Allow</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_RecordID" selected="True" />
+                <SelectField field="Input_#1_encounter_id" selected="True" />
+                <SelectField field="Input_#1_patient_nbr" selected="True" />
+                <SelectField field="Input_#1_race" selected="True" />
+                <SelectField field="Input_#1_gender" selected="True" />
+                <SelectField field="Input_#1_age" selected="True" />
+                <SelectField field="Input_#1_admission_type_id" selected="True" />
+                <SelectField field="Input_#1_discharge_disposition_id" selected="True" />
+                <SelectField field="Input_#1_admission_source_id" selected="True" />
+                <SelectField field="Input_#1_time_in_hospital" selected="True" />
+                <SelectField field="Input_#1_num_lab_procedures" selected="True" />
+                <SelectField field="Input_#1_num_procedures" selected="True" />
+                <SelectField field="Input_#1_num_medications" selected="True" />
+                <SelectField field="Input_#1_number_outpatient" selected="True" />
+                <SelectField field="Input_#1_number_emergency" selected="True" />
+                <SelectField field="Input_#1_number_inpatient" selected="True" />
+                <SelectField field="Input_#1_diag_1" selected="True" />
+                <SelectField field="Input_#1_diag_2" selected="True" />
+                <SelectField field="Input_#1_diag_3" selected="True" />
+                <SelectField field="Input_#1_number_diagnoses" selected="True" />
+                <SelectField field="Input_#1_max_glu_serum" selected="True" />
+                <SelectField field="Input_#1_A1Cresult" selected="True" />
+                <SelectField field="Input_#1_metformin" selected="True" />
+                <SelectField field="Input_#1_repaglinide" selected="True" />
+                <SelectField field="Input_#1_nateglinide" selected="True" />
+                <SelectField field="Input_#1_chlorpropamide" selected="True" />
+                <SelectField field="Input_#1_glimepiride" selected="True" />
+                <SelectField field="Input_#1_acetohexamide" selected="True" />
+                <SelectField field="Input_#1_glipizide" selected="True" />
+                <SelectField field="Input_#1_glyburide" selected="True" />
+                <SelectField field="Input_#1_tolbutamide" selected="True" />
+                <SelectField field="Input_#1_pioglitazone" selected="True" />
+                <SelectField field="Input_#1_rosiglitazone" selected="True" />
+                <SelectField field="Input_#1_acarbose" selected="True" />
+                <SelectField field="Input_#1_miglitol" selected="True" />
+                <SelectField field="Input_#1_troglitazone" selected="True" />
+                <SelectField field="Input_#1_tolazamide" selected="True" />
+                <SelectField field="Input_#1_insulin" selected="True" />
+                <SelectField field="Input_#1_glyburide-metformin" selected="True" />
+                <SelectField field="Input_#1_glipizide-metformin" selected="True" />
+                <SelectField field="Input_#1_glimepiride-pioglitazone" selected="True" />
+                <SelectField field="Input_#1_metformin-rosiglitazone" selected="True" />
+                <SelectField field="Input_#1_metformin-pioglitazone" selected="True" />
+                <SelectField field="Input_#1_change" selected="True" />
+                <SelectField field="Input_#1_diabetesMed" selected="True" />
+                <SelectField field="Input_#2_Sum_metformin_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_repaglinide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_nateglinide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_chlorpropamide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glimepiride_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_acetohexamide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glipizide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glyburide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_tolbutamide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_pioglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_rosiglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_acarbose_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_miglitol_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_troglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_tolazamide_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_insulin_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glyburide_metformin_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glipizide_metformin_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_glimepiride_pioglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_metformin_rosiglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Sum_metformin_pioglitazone_temp" selected="False" />
+                <SelectField field="Input_#2_Total" selected="True" rename="drug_change" />
+                <SelectField field="*Unknown" selected="False" />
+                <SelectField field="Input_#1_readmitted" selected="True" />
+                <SelectField field="Input_#1_service_utilization" selected="True" />
+                <SelectField field="Input_#2_RecordID" selected="False" rename="Input_#2_RecordID" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Switch([admission_type_id],&quot;&quot;,&#xA;&quot;1&quot;,&quot;Emergency&quot;,&#xA;&quot;2&quot;,&quot;Emergency&quot;,&#xA;&quot;3&quot;,&quot;Elective&quot;,&#xA;&quot;4&quot;,&quot;other&quot;,&#xA;&quot;7&quot;,&quot;other&quot;,&#xA;&quot;6&quot;,&quot;unknown&quot;,&#xA;&quot;5&quot;,&quot;unknown&quot;,&#xA;&quot;8&quot;,&quot;unknown&quot;)&#xA;&#xA;&#xA;&#xA;&#xA;" field="admission_type_id" size="254" type="V_String" />
+            <FormulaField expression="Switch([discharge_disposition_id],&quot;Home&quot;,&#xA;&quot;6&quot;,&quot;Home&quot;,&#xA;&quot;2&quot;,&quot;Another Facility&quot;,&#xA;&quot;3&quot;,&quot;Another Facility&quot;,&#xA;&quot;4&quot;,&quot;Another Facility&quot;,&#xA;&quot;5&quot;,&quot;Another Facility&quot;,&#xA;&quot;15&quot;,&quot;Another Facility&quot;,&#xA;&quot;16&quot;,&quot;Another Facility&quot;,&#xA;&quot;17&quot;,&quot;Another Facility&quot;,&#xA;&quot;22&quot;,&quot;Another Facility&quot;,&#xA;&quot;23&quot;,&quot;Another Facility&quot;,&#xA;&quot;24&quot;,&quot;Another Facility&quot;,&#xA;&quot;27&quot;,&quot;Another Facility&quot;,&#xA;&quot;28&quot;,&quot;Another Facility&quot;,&#xA;&quot;8&quot;,&quot;Nursing Home/ Hospice&quot;,&#xA;&quot;13&quot;,&quot;Nursing Home/ Hospice&quot;,&#xA;&quot;14&quot;,&quot;Nursing Home/ Hospice&quot;,&#xA;&quot;7&quot;,&quot;Other&quot;,&#xA;&quot;9&quot;,&quot;Other&quot;,&#xA;&quot;10&quot;,&quot;Other&quot;,&#xA;&quot;11&quot;,&quot;Other&quot;,&#xA;&quot;12&quot;,&quot;Other&quot;,&#xA;&quot;19&quot;,&quot;Other&quot;,&#xA;&quot;20&quot;,&quot;Other&quot;,&#xA;&quot;18&quot;,&quot;Unknown&quot;,&#xA;&quot;25&quot;,&quot;Unknown&quot;)" field="discharge_disposition_id" size="254" type="V_String" />
+            <FormulaField expression="Switch([admission_source_id],&quot;&quot;&#xA;,&quot;1&quot;,&quot;Referral&quot;&#xA;,&quot;2&quot;,&quot;Referral&quot;&#xA;,&quot;3&quot;,&quot;Referral&quot;&#xA;,&quot;4&quot;,&quot;Transfer&quot;&#xA;,&quot;5&quot;,&quot;Transfer&quot;&#xA;,&quot;6&quot;,&quot;Transfer&quot;&#xA;,&quot;10&quot;,&quot;Transfer&quot;&#xA;,&quot;22&quot;,&quot;Transfer&quot;&#xA;,&quot;25&quot;,&quot;Transfer&quot;&#xA;,&quot;7&quot;,&quot;ER&quot;&#xA;,&quot;8&quot;,&quot;Other&quot;&#xA;,&quot;11&quot;,&quot;Other&quot;&#xA;,&quot;13&quot;,&quot;Other&quot;&#xA;,&quot;14&quot;,&quot;Other&quot;&#xA;,&quot;9&quot;,&quot;Unknown&quot;&#xA;,&quot;17&quot;,&quot;Unknown&quot;&#xA;,&quot;20&quot;,&quot;Unknown&quot;)" field="admission_source_id" size="254" type="V_String" />
+            <FormulaField expression="Switch([change],&quot;1&quot;,&quot;No&quot;,&quot;0&quot;)" field="change" size="254" type="V_String" />
+            <FormulaField expression="Switch([gender],&quot;1&quot;,&quot;Female&quot;,&quot;0&quot;)" field="gender" size="254" type="V_String" />
+            <FormulaField expression="Switch([diabetesMed],&quot;1&quot;,&quot;No&quot;,&quot;0&quot;)" field="diabetesMed" size="254" type="V_String" />
+            <FormulaField expression="Switch([A1Cresult],&quot;none&quot;,&quot;&gt;7&quot;,&quot;Pre-diab&quot;,&quot;&gt;8&quot;,&quot;Diab&quot;,&quot;Norm&quot;,&quot;Normal&quot;)" field="A1Cresult" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>admission_type_id = Switch([admission_type_id],"",
+"1","Emergency",
+"2","Emergen...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1158" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="metformin" />
+            <Field name="repaglinide" />
+            <Field name="nateglinide" />
+            <Field name="chlorpropamide" />
+            <Field name="glimepiride" />
+            <Field name="acetohexamide" />
+            <Field name="glipizide" />
+            <Field name="glyburide" />
+            <Field name="tolbutamide" />
+            <Field name="pioglitazone" />
+            <Field name="rosiglitazone" />
+            <Field name="acarbose" />
+            <Field name="miglitol" />
+            <Field name="troglitazone" />
+            <Field name="tolazamide" />
+            <Field name="insulin" />
+            <Field name="glyburide-metformin" />
+            <Field name="glipizide-metformin" />
+            <Field name="glimepiride-pioglitazone" />
+            <Field name="metformin-rosiglitazone" />
+            <Field name="metformin-pioglitazone" />
+            <Field name="encounter_id" selected="False" />
+            <Field name="patient_nbr" selected="False" />
+            <Field name="race" selected="False" />
+            <Field name="gender" selected="False" />
+            <Field name="age" selected="False" />
+            <Field name="admission_type_id" selected="False" />
+            <Field name="discharge_disposition_id" selected="False" />
+            <Field name="admission_source_id" selected="False" />
+            <Field name="time_in_hospital" selected="False" />
+            <Field name="num_lab_procedures" selected="False" />
+            <Field name="num_procedures" selected="False" />
+            <Field name="num_medications" selected="False" />
+            <Field name="diag_1" selected="False" />
+            <Field name="diag_2" selected="False" />
+            <Field name="diag_3" selected="False" />
+            <Field name="number_diagnoses" selected="False" />
+            <Field name="max_glu_serum" selected="False" />
+            <Field name="A1Cresult" selected="False" />
+            <Field name="change" selected="False" />
+            <Field name="diabetesMed" selected="False" />
+            <Field name="readmitted" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>IF [_CurrentField_] = "No" then 0
+ELSE 1
+ENDIF</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int16" size="2" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [_CurrentField_] = "No" then 0
+ELSE 1
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1302" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vhua2\Desktop\Readmission\prep1.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prep1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1218" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile />
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_prep1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f5fa61e2-5fe8-4317-bb00-b77554f8f003" />
+      <Telemetry>
+        <PreviousWorkflowId value="427a7683-7c28-437c-ad6a-d880b16d68c1" />
+        <OriginWorkflowId value="427a7683-7c28-437c-ad6a-d880b16d68c1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
