@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LIEIE_File.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LASTNAME" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="FIRSTNAME" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="MIDNAME" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="BUSNAME" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="GENERAL" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="SPECIALTY" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="UPIN" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="NPI" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="EXCLTYPE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="EXCLDATE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="REINDATE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="WAIVERDATE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+            <Field name="WVRSTATE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\LIEIE_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CMS_CY2012_R.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Count_HCPCS" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Min_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Max_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Min_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Max_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_paid" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_allowed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiary/Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Final_amount_received" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Avg_Excess_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Fraud_Label" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Right_National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Last Name/Organization Name" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Middle Initial" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Credentials" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Right_Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Entity Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Street Address 1" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Street Address 2" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="State Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Country Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Right_Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Medicare Participation" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Place of Service" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="HCPCS Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="HCPCS Description" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="HCPCS Drug Indicator" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Number of Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Number of Medicare Beneficiary/Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Average Medicare Allowed Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Standard Deviation of Medicare Allowed Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Average Submitted Charge Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Standard Deviation of Submitted Charge Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Average Medicare Payment Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+            <Field name="Standard Deviation of Medicare Payment Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2012_R.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CMS_CY2013_R.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Count_HCPCS" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Min_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Max_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Min_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Max_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_paid" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_allowed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiary/Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Final_amount_received" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Avg_Excess_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Fraud_Label" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Right_National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Last Name/Organization Name" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Middle Initial" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Credentials" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Right_Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Entity Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Street Address 1" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Street Address 2" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="State Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Country Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Right_Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Medicare Participation" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="Place of Service" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="HCPCS_CODE" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="HCPCS_DESCRIPTION" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="HCPCS_DRUG_INDICATOR" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="LINE_SRVC_CNT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="BENE_UNIQUE_CNT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="BENE_DAY_SRVC_CNT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="AVERAGE_MEDICARE_ALLOWED_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="STDEV_MEDICARE_ALLOWED_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="AVERAGE_SUBMITTED_CHRG_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="STDEV_SUBMITTED_CHRG_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="AVERAGE_MEDICARE_PAYMENT_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+            <Field name="STDEV_MEDICARE_PAYMENT_AMT" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2013_R.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CMS_CY2014_R.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Count_HCPCS" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Min_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Max_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Min_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Max_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_paid" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_allowed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiary/Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Final_amount_received" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Avg_Excess_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Fraud_Label" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Right_National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Last Name/Organization Name of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="First Name of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Middle Initial of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Credentials of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Gender of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Entity Type of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Street Address 1 of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Street Address 2 of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="City of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Zip Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="State Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Country Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Provider Type of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Medicare Participation Indicator" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Place of Service" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="HCPCS Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="HCPCS Description" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Identifies HCPCS As Drug Included in the ASP Drug List" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Number of Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Number of Distinct Medicare Beneficiary/Per Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Average Medicare Allowed Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Average Submitted Charge Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Average Medicare Payment Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+            <Field name="Average Medicare Standardized Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2014_R.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CMS_CY2015_R.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Count_HCPCS" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Min_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Max_Payout_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Min_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Max_Allowance_Ratio" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_paid" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Sum_Total_amount_allowed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiary/Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Final_amount_received" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Avg_Excess_amount_claimed" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Fraud_Label" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Right_National Provider Identifier" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Last Name/Organization Name of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="First Name of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Middle Initial of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Credentials of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Gender of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Entity Type of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Street Address 1 of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Street Address 2 of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="City of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Zip Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="State Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Country Code of the Provider" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Right_Provider Type" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Medicare Participation Indicator" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Place of Service" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="HCPCS Code" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="HCPCS Description" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="HCPCS Drug Indicator" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Number of Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Number of Medicare Beneficiaries" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Number of Distinct Medicare Beneficiary/Per Day Services" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Average Medicare Allowed Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Average Submitted Charge Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Average Medicare Payment Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+            <Field name="Average Medicare Standardized Amount" size="254" source="File: C:\Users\vhua2\Desktop\Fraud Detection\CMS_CY2015_R.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NPI" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>NPI</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-04-10 21:56:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2023-04-10 21:56:36</StartDate>
+              <EndDate>2023-04-10 21:56:36</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[NPI] != "0"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="366" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="NPI" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="402" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="594" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NPI" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="National Provider Identifier" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Yes&quot;" field="Fraud_Label" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Fraud_Label = "Yes"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;No&quot;" field="Fraud_Label" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Fraud_Label = "No"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="846" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="954" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NPI" selected="False" />
+            <SelectField field="National Provider Identifier" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="Provider Type" selected="True" />
+            <SelectField field="Count_HCPCS" selected="False" />
+            <SelectField field="Avg_Payout_Ratio" selected="False" />
+            <SelectField field="Min_Payout_Ratio" selected="False" />
+            <SelectField field="Max_Payout_Ratio" selected="False" />
+            <SelectField field="Avg_Allowance_Ratio" selected="False" />
+            <SelectField field="Min_Allowance_Ratio" selected="False" />
+            <SelectField field="Max_Allowance_Ratio" selected="False" />
+            <SelectField field="Sum_Total_amount_claimed" selected="False" />
+            <SelectField field="Sum_Total_amount_paid" selected="False" />
+            <SelectField field="Sum_Total_amount_allowed" selected="False" />
+            <SelectField field="Avg_Number of Medicare Beneficiary/Day Services" selected="False" />
+            <SelectField field="Avg_Number of Medicare Beneficiaries" selected="False" />
+            <SelectField field="Avg_Final_amount_received" selected="False" />
+            <SelectField field="Avg_Excess_amount_claimed" selected="False" />
+            <SelectField field="Fraud_Label" selected="True" />
+            <SelectField field="Right_National Provider Identifier" selected="True" />
+            <SelectField field="Last Name/Organization Name" selected="True" />
+            <SelectField field="First Name" selected="True" />
+            <SelectField field="Middle Initial" selected="True" />
+            <SelectField field="Credentials" selected="True" />
+            <SelectField field="Right_Gender" selected="False" />
+            <SelectField field="Entity Code" selected="True" />
+            <SelectField field="Street Address 1" selected="True" />
+            <SelectField field="Street Address 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="State Code" selected="True" />
+            <SelectField field="Country Code" selected="True" />
+            <SelectField field="Right_Provider Type" selected="False" />
+            <SelectField field="Medicare Participation" selected="True" />
+            <SelectField field="Place of Service" selected="True" />
+            <SelectField field="HCPCS Code" selected="True" />
+            <SelectField field="HCPCS Description" selected="True" />
+            <SelectField field="HCPCS Drug Indicator" selected="True" />
+            <SelectField field="Number of Services" selected="True" />
+            <SelectField field="Number of Medicare Beneficiaries" selected="True" />
+            <SelectField field="Number of Medicare Beneficiary/Day Services" selected="True" />
+            <SelectField field="Average Medicare Allowed Amount" selected="True" />
+            <SelectField field="Standard Deviation of Medicare Allowed Amount" selected="True" />
+            <SelectField field="Average Submitted Charge Amount" selected="True" />
+            <SelectField field="Standard Deviation of Submitted Charge Amount" selected="True" />
+            <SelectField field="Average Medicare Payment Amount" selected="True" />
+            <SelectField field="Standard Deviation of Medicare Payment Amount" selected="True" />
+            <SelectField field="HCPCS_CODE" selected="False" />
+            <SelectField field="HCPCS_DESCRIPTION" selected="False" />
+            <SelectField field="HCPCS_DRUG_INDICATOR" selected="False" />
+            <SelectField field="LINE_SRVC_CNT" selected="False" />
+            <SelectField field="BENE_UNIQUE_CNT" selected="False" />
+            <SelectField field="BENE_DAY_SRVC_CNT" selected="False" />
+            <SelectField field="AVERAGE_MEDICARE_ALLOWED_AMT" selected="False" />
+            <SelectField field="STDEV_MEDICARE_ALLOWED_AMT" selected="False" />
+            <SelectField field="AVERAGE_SUBMITTED_CHRG_AMT" selected="False" />
+            <SelectField field="STDEV_SUBMITTED_CHRG_AMT" selected="False" />
+            <SelectField field="AVERAGE_MEDICARE_PAYMENT_AMT" selected="False" />
+            <SelectField field="STDEV_MEDICARE_PAYMENT_AMT" selected="False" />
+            <SelectField field="Last Name/Organization Name of the Provider" selected="False" />
+            <SelectField field="First Name of the Provider" selected="False" />
+            <SelectField field="Middle Initial of the Provider" selected="False" />
+            <SelectField field="Credentials of the Provider" selected="False" />
+            <SelectField field="Gender of the Provider" selected="False" />
+            <SelectField field="Entity Type of the Provider" selected="False" />
+            <SelectField field="Street Address 1 of the Provider" selected="False" />
+            <SelectField field="Street Address 2 of the Provider" selected="False" />
+            <SelectField field="City of the Provider" selected="False" />
+            <SelectField field="Zip Code of the Provider" selected="False" />
+            <SelectField field="State Code of the Provider" selected="False" />
+            <SelectField field="Country Code of the Provider" selected="False" />
+            <SelectField field="Provider Type of the Provider" selected="False" />
+            <SelectField field="Medicare Participation Indicator" selected="False" />
+            <SelectField field="Identifies HCPCS As Drug Included in the ASP Drug List" selected="False" />
+            <SelectField field="Number of Distinct Medicare Beneficiary/Per Day Services" selected="False" />
+            <SelectField field="Average Medicare Standardized Amount" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1050" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Last Name/Organization Name]) AND !IsNull([HCPCS Code])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Last Name/Organization Name]) AND !IsNull([HCPCS Code])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1206" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vhua2\Desktop\Fraud Detection\All_Claims_Data.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>All_Claims_Data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Right" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Ingestion</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cde75330-2406-481c-ac1b-19beec0e251a" />
+      <Telemetry>
+        <PreviousWorkflowId value="757f200b-5e28-4858-a53c-1700036edf67" />
+        <OriginWorkflowId value="757f200b-5e28-4858-a53c-1700036edf67" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
