@@ -7,6 +7,7 @@ Objectives
 
 -We are using the elective surgery schedule from a few weeks prior to the actual surgery date to predict the final number of surgeries to be performed using the Linear Regression model. 
 
-  Resolves the issue of variation in daily surgical case volume
-  Improves the problems of surgical staff scheduling.
+  *Resolves the issue of variation in daily surgical case volume
+  
+  *Improves the problems of surgical staff scheduling.
 
